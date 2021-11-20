@@ -1,6 +1,15 @@
 @font-face {
-    font-family: Subway Circle;
-    src:url(../czcionki/Subway Circle.otf);
+    font-family: EBGaramond-Medium;
+    src:url(../czcionki/EBGaramond-Medium.ttf);
+}
+
+html{
+    background-color: darkslategray;
+    background: url(../obrazy/glowna.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #witamy{
@@ -11,9 +20,16 @@
     padding: 10px;
     font-size: 100px;
     color: white;
-    font-family: Subway Circle;
+    font-family: EBGaramond-Medium;
 }
 
-html{
-    background-color: darkslategray;
+#podwitajka{
+    position: absolute;
+    left: 53%;
+    top: 54%;
+    transform: translate(-50%, -60%)
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: EBGaramond-Medium;
 }
